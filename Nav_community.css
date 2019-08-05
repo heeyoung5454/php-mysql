@@ -1,0 +1,59 @@
+  #community .board .list li{
+    margin: 10px;
+  }
+
+  #community {
+    border: 1px solid #e4e4e4;
+    margin:40px auto;
+    width: 1200px
+  }
+
+  #community .Mainimage{
+    margin:10px;
+    height:300px;
+  }
+
+  #community .Mainimage .image{
+    width:33.33%;
+    position:relative;
+    float:left;
+    padding : 15px;
+    box-sizing: border-box;
+  }
+
+  #community .Mainimage .image img{
+    width:100%;
+    height: 200px;
+  }
+
+  #community .Mainboard{
+    margin:10px;
+    height:350px;
+  }
+
+  #community .Mainboard .board{
+    width:33.33%;
+    position:relative;
+    float:left;
+    padding : 15px;
+    box-sizing: border-box;
+    min-height: 180px;
+  }
+
+  #community .board h3 {
+  font-size: 15px;
+  padding: 0px 0px 5px 5px;
+  border-bottom: 2px solid black;
+  }
+
+  #community .board_list{
+    margin: 20px 0px 0px 20px;
+  }
+
+  #community .board > .more{
+    position:absolute;
+    font-size: 12px;
+    color: gray;
+    top:20px;
+    right:20px;
+  }

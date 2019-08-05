@@ -1,0 +1,18 @@
+#admin{
+  width: 1200px;
+  margin:40px auto;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+#admin h3{
+  margin:20px 0px 10px 0px;
+}
+
+#admin li{
+  list-style-type: disc;
+}
+#admin .assist_list li{
+  margin-left: 20px
+
+}

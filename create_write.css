@@ -1,0 +1,78 @@
+#writing {
+  border: 1px solid #e4e4e4;
+  margin:40px auto;
+  width: 1200px;
+  min-height:650px;
+}
+
+#writing aside{
+  position: relative;
+  float: left;
+  width:20%;
+  padding:15px;
+  height: 650px;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+}
+
+#writing .category{
+  margin: 10px 0px 0px 10px;
+  list-style-type: none;
+}
+
+#writing li{
+  font-size:15px;
+  margin:5px 0px 5px 0px;
+}
+
+
+#writing .main_board{
+  position:relative;
+  float: right;
+  width: 80%;
+  padding : 15px;
+  box-sizing: border-box;
+  height: 650px;
+}
+
+
+#writing .main_board h3{
+  border: none;
+}
+
+#writing h3 {
+font-size: 15px;
+padding: 0px 0px 5px 5px;
+border-bottom: 2px solid black;
+}
+
+
+#writing .title{
+  padding: 30px 10px 10px 10px;
+  height: 50px;
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+
+}
+
+#writing .title span{
+  position: relative;
+  top:15px;
+  color: #928989;
+  font-size: 13px;
+  margin: 20px;
+}
+
+#writing .content{
+  margin:10px;
+  min-height: 350px;
+}
+
+#writing .comment{
+  font-size: 13px;
+  padding:10px 0px 10px 0px;
+  margin:10px;
+  min-height: 50px;
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+}

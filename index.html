@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>html웹페이지</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/template.css"/>
+  <link rel="stylesheet" href="../css/index.css"/>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+  </script>
+  <script>
+  <!--sub_menu slide -->
+$(document).ready(function(){
+  $("#menu_all").mouseenter(function(){
+    $(".panel").slideDown(500);
+  });
+  $("#menu_all").mouseleave(function(){
+    $(".panel").slideUp(500);
+  });
+});
+</script>
+</head>
+
+<body>
+<article class ="main_all">
+  <header id ="header">
+    <div class="inner_header">
+      <div class="top_header">
+        <div class="inner">
+          <h1 class ="logo">
+            <a href ="index.html"><img alt="logo" src="../img/logo.png"></a>
+          </h1>
+          <nav class="info">
+          <ul>
+            <li>info1</li>
+            <li>info2</li>
+            <li>info3</li>
+          </ul>
+          </nav>
+          <nav class="etc">
+            <li><a href="/"> 바로가기</a></li>
+            <li><img alt="search" src="../img/search.png"></li>
+            <li></li>
+          </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  <div id="menu_all">
+    <div class ="menu_area" >
+      <nav class = "menu">
+      <ul id = "flip">
+        <li><a href="Nav_intro.html" ><strong>소개</strong></a></li>
+        <li><a href="Nav_review.html"><strong>리뷰</strong></a></li>
+        <li><a href="Nav_community.html"><strong>커뮤니티</strong></a></li>
+        <li><a href="Nav_event.html" ><strong>이벤트</strong></a></li>
+        <li><a href="Nav_etc.html" ><strong>기타</strong></a></li>
+      </ul>
+      </nav>
+    </div>
+
+    <div class="panel">
+      <nav class="panel_nav">
+        <div class="panel_menu">
+          <ul>
+            <li><a href="Nav_intro.html" >공지사항</a></li>
+            <li><a href="Nav_intro.html">컨텐츠 소개</a></li>
+            <li><a href="Nav_intro_assist.html">참고사이트</a></li>
+        </ul>
+      </div>
+      <div class="panel_menu">
+        <ul>
+          <li><a href="Nav_review.html" >책</a></li>
+          <li><a href="Nav_review.html" >영화</a></li>
+          <li><a href="Nav_review.html">드라마</a></li>
+          <li><a href="Nav_review.html" >사이트</a></li>
+          <li><a href="Nav_review.html" >게임</a></li>
+      </ul>
+    </div>
+    <div class="panel_menu">
+      <ul>
+        <li><a href="Nav_community_popular.html" >자유게시판</a></li>
+        <li><a href="Nav_community_popular.html">사진게시판</a></li>
+        <li><a href="Nav_community_popular.html">정보게시판</a></li>
+        <li><a href="Nav_community_popular.html" >익명게시판</a></li>
+        <li><a href="Nav_community_popular.html" >투표게시판</a></li>
+      </ul>
+    </div>
+    <div class="panel_menu">
+      <ul>
+        <li><a href="Nav_event.html" >진행중인 이벤트</a></li>
+        <li><a href="Nav_event.html" >종료된 이벤트</a></li>
+        <li><a href="Nav_event.html" >당첨자 발표</a></li>
+      </ul>
+    </div>
+    <div class="panel_menu">
+      <ul>
+        <li><a href="Nav_etc.html" >기타</a></li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+  </div>
+</header>
+
+<section>
+  <div class="slide">
+    <input type="radio" name="pos" id="pos1" checked>
+    <input type="radio" name="pos" id="pos2">
+    <input type="radio" name="pos" id="pos3">
+    <input type="radio" name="pos" id="pos4">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <p class="bullet">
+      <label for="pos1">1</label>
+      <label for="pos2">2</label>
+      <label for="pos3">3</label>
+      <label for="pos4">4</label>
+    </p>
+  </div>
+</section>
+
+<section class="event">
+  <h3 class="title"><strong>EVENT</strong></h3>
+  <div class="event_list">
+    <ul>
+      <li>
+        <div class="event_info">
+        <figure><img src="../img/event1.png"><a href="/"></a></figure>
+        <span class="icon"><img alt="icon" src="../img/event.png"></span>
+        <span class="title">이벤트 제목</span>
+        <div class="when">진행기간</div>
+        </div>
+      </li>
+      <li>
+        <div class="event_info">
+        <figure><img src="../img/event2.png"><a href="/"></a></figure>
+        <span class="icon"><img alt="icon" src="../img/event.png"></span>
+        <span class="title">이벤트 제목</span>
+        <div class="when">진행기간</div>
+       </div>
+      </li>
+      <li>
+        <div class="event_info">
+        <figure><img src="../img/event1.png"><a href="/"></a></figure>
+        <span class="icon"><img alt="icon" src="../img/event.png"></span>
+        <span class="title">이벤트 제목</span>
+        <div class="when">진행기간</div>
+      </div>
+      </li>
+      <li>
+        <div class="event_info">
+        <figure><img src="../img/event2.png"><a href="/"></a></figure>
+        <span class="icon"><img alt="icon" src="../img/event.png"></span>
+        <span class="title">이벤트 제목</span>
+        <div class="when">진행기간</div>
+      </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="recommend">
+  <h3 class="title"><strong>BEST</strong></h3>
+  <div class="recommend_list">
+    <span class="recommend_book">
+      <a href=""><img class="recommend_item"alt="post" src="../img/white.png"></a>
+      <div class="best">
+        <h3>Book</h3>
+        <p>이달의 추천 도서</p>
+      </div>
+    </span>
+    <span class="recommend_movie">
+      <a href=""><img class="recommend_item" alt="post" src="../img/white.png"></a>
+      <div class="best">
+        <h3>Movie</h3>
+        <p>이달의 추천 영화</p>
+      </div>
+    </span>
+    <span class="recommend_food">
+      <a href=""><img class="recommend_item" alt="post" src="../img/white.png"></a>
+      <div class="best">
+        <h3>Food</h3>
+        <p>이달의 추천 음식</p>
+      </div>
+    </span>
+  </div>
+</section>
+</article>
+
+<iframe src="temp_footer.html" height="100%" width="100%" style="border:none"></iframe>
+
+</body>
+</html>
